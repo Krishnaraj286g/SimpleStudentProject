@@ -1,8 +1,8 @@
-import { Route, Routes } from 'react-router-dom'
-import './App.css'
-import Login from './components/Login'
-import StudentForm from './components/StudentForm'
-import ViewPage from './components/ViewPage'
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import Login from './components/Login';
+import StudentForm from './components/StudentForm';
+import ViewPage from './components/ViewPage';
 
 function App() {
 
