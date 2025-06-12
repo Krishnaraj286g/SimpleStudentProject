@@ -57,6 +57,7 @@ export default function ViewPage() {
         axios.put(url,updatedForm)
         .then((res) => {
             alert("Student Information is Updated!");
+            SetEditmode(false);
             axios.get(url) .then((res) => {SetStudent(res.data)}).catch((err) => {console.log("Error",err)})
 
         })
