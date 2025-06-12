@@ -1,0 +1,411 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+background: #194545;
+background: linear-gradient(36deg, rgba(25, 69, 69, 1) 0%, rgba(22, 105, 58, 1) 50%);
+background-repeat: no-repeat;
+font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+
+/* Login Style */
+
+.Container_Login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.TitlePro marquee{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+} 
+
+.Login_form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: rgba(50, 50, 93, 0.5) 0px 13px 27px -5px, rgba(0, 0, 0, 0.5) 0px 8px 16px -8px;}
+
+.Login_form .Input-box{
+ padding: 10px;
+ border: 1px solid black;
+ border-radius: 5px;
+ margin-top: 10px;
+}
+.Login_form .Input-box input{
+  border: none;
+  outline: none;
+  font-size: 17px;
+  margin-right: 10px;
+}
+.Login_form .Input-box input::placeholder{
+  font-size: 17px;
+}
+.Login_form .LoginSubmit{
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: #fff;
+  transition: 0.3s;
+}
+.Login_form .LoginSubmit:hover{
+  transform: scale(1.03);
+}
+
+
+
+/* Student Form */
+
+.ContainerStud{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px;
+
+  
+}
+
+.ContainerStud .StuInfForm{
+  padding: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.5) 0px 13px 27px -5px, rgba(0, 0, 0, 0.5) 0px 8px 16px -8px;
+}
+
+
+
+.ContainerStud .StuInfForm .InputName{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.ContainerStud .StuInfForm .InputName input{
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+
+.ContainerStud .StuInfForm .InputGender{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.ContainerStud .StuInfForm .InputGender .GenderType{
+  margin-top: 10px;
+}
+
+.ContainerStud .StuInfForm .InputGender .GenderType label{
+  margin-right: 10px;
+}
+.ContainerStud .StuInfForm .InputQual{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ContainerStud .StuInfForm .InputQual select{
+  margin-top: 10px;
+  padding: 5px;
+}
+
+
+
+.ContainerStud .StuInfForm .InputSkill{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.ContainerStud .StuInfForm .InputSkill .Skills {
+  margin-top: 10px;
+}
+
+.ContainerStud .StuInfForm .InputSkill .Skills label{
+  margin-right: 5px;
+}
+
+.ContainerStud .StuInfForm .StudSub{
+
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: #fff;
+  transition: 0.3s;
+}
+.ContainerStud .StuInfForm .StudSub:hover{
+  transform: scale(1.03);
+}
+
+
+
+/* Table */
+.ContainerStud .table .StuTable {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 20px;
+
+}
+.ContainerStud .table .StuTable thead tr {
+  background-color: black;
+  color: #fff;
+}
+.ContainerStud .table .StuTable tbody tr:nth-child(odd) {
+  background: #b5b5b5;
+  background: linear-gradient(0deg, rgba(181, 181, 181, 1) 0%, rgba(163, 163, 163, 1) 100%);
+}
+
+.ContainerStud .table .StuTable tbody tr:nth-child(even) {
+  background: #b5b5b5;
+  background: linear-gradient(0deg, rgba(181, 181, 181, 1) 0%, rgba(217, 208, 208, 1) 100%);
+}
+
+
+.ContainerStud .table .StuTable tr th{
+  padding: 10px;
+  border: 1px solid black;
+}
+
+
+
+
+.ContainerStud .table .StuTable tr td{
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.ContainerStud .table .StuTable tr td .RemoveBtn{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(254, 7, 7);
+  color: black;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.ContainerStud .table .StuTable tr td .RemoveBtn:active{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ContainerStud .table .StuTable tr td .ViewBtn{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(26, 241, 47);
+  color: black;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.ContainerStud .table .StuTable tr td .ViewBtn:active{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+/* ViewPage */
+
+.ViewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.ViewContainer h1{
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.ViewContainer h2{
+  margin-bottom: 20px;
+  color:black;
+}
+
+.ViewContainer .viewContent{
+  padding: 50px;
+  background-color: rgb(246, 242, 242);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ViewContainer .viewContent h3 {
+  text-align: justify;
+}
+
+
+.ViewContainer .viewContent h3 span{
+  color: rgba(191, 66, 8, 0.8);
+
+}
+
+
+
+
+.ViewContainer .viewContent button{
+  float:right;
+  padding: 10px 15px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+.ViewContainer .viewContent button:hover{
+  transform: scale(1.04);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.ViewContainer .viewContent button:nth-child(2){
+  margin-left: 20px;
+}
+
+
+/* Popup window */
+
+.ViewContainer .viewContent .popup-container{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(39, 38, 38, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px);
+  transition-delay: 0.5s;
+}
+
+.ViewContainer .viewContent .popup-container .StuInfForm{
+  padding: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.ViewContainer .viewContent .popup-container .StuInfForm .InputName{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+}
+
+.ViewContainer .viewContent .popup-container .StuInfForm .InputName input{
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+
+.ViewContainer .viewContent .popup-container .StuInfForm .InputGender{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.ViewContainer .viewContent .popup-container .StuInfForm .InputGender .GenderType{
+  margin-top: 10px;
+}
+
+.ViewContainer .viewContent .popup-container .StuInfForm .InputGender .GenderType label{
+  margin-right: 10px;
+}
+.ViewContainer .viewContent .popup-container .StuInfForm .InputQual{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ViewContainer .viewContent .popup-container .StuInfForm .InputQual select{
+  margin-top: 10px;
+  padding: 5px;
+}
+
+
+
+.ViewContainer .viewContent .popup-container .StuInfForm .InputSkill{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.ViewContainer .viewContent .popup-container .StuInfForm .InputSkill .Skills {
+  margin-top: 10px;
+}
+
+.ViewContainer .viewContent .popup-container .StuInfForm .InputSkill .Skills label{
+  margin-right: 5px;
+}
+.ViewContainer .viewContent .popup-container .StuInfForm .button-uc{
+  display: flex;
+}
+
+.ViewContainer .viewContent .popup-container .StuInfForm .button-uc button{
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-weight: bold;
+  
+}
+
+
+
+@media (max-width:600px){
+
+  .ContainerStud .table{
+    padding: 10px;
+    overflow: scroll;
+    width: 300px;
+  }
+
+ }
